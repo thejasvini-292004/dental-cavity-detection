@@ -27,7 +27,7 @@ An interactive **Streamlit** app lets anyone upload an X-ray (or pick a bundled 
 
 ## Demo
 
-> 🔗 **Live app:** (https://dental-cavity-detection-fhpczkkbuu3jfb5ctmlks8.streamlit.app/)
+> 🔗 **Live app:** https://dental-cavity-detection-fhpczkkbuu3jfb5ctmlks8.streamlit.app/
 
 Run it locally in two commands:
 
