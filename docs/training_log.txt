@@ -1,0 +1,151 @@
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m21s[0m 75ms/step - dice_coef: 0.5964 - loss: 0.4331 - precision: 0.6943 - recall: 0.5557 
+
+Epoch 42/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 70ms/step - dice_coef: 0.5944 - loss: 0.4351 - precision: 0.7018 - recall: 0.5563 
+Epoch 43/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6147 - loss: 0.4135 - precision: 0.7166 - recall: 0.5738 
+
+Epoch 44/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 70ms/step - dice_coef: 0.6098 - loss: 0.4188 - precision: 0.7124 - recall: 0.5687 
+
+Epoch 45/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 71ms/step - dice_coef: 0.6202 - loss: 0.4078 - precision: 0.7288 - recall: 0.5740 
+
+Epoch 46/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6253 - loss: 0.4024 - precision: 0.7307 - recall: 0.5775 
+
+Epoch 47/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6278 - loss: 0.4005 - precision: 0.7379 - recall: 0.5781 
+
+Epoch 48/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6319 - loss: 0.3958 - precision: 0.7376 - recall: 0.5875 
+
+Epoch 49/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6353 - loss: 0.3919 - precision: 0.7408 - recall: 0.5930 
+
+Epoch 50/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 71ms/step - dice_coef: 0.6513 - loss: 0.3760 - precision: 0.7517 - recall: 0.6145 
+
+Epoch 51/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6630 - loss: 0.3629 - precision: 0.7711 - recall: 0.6245 
+
+Epoch 52/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 71ms/step - dice_coef: 0.6508 - loss: 0.3756 - precision: 0.7639 - recall: 0.6006 
+
+Epoch 53/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 71ms/step - dice_coef: 0.6606 - loss: 0.3650 - precision: 0.7638 - recall: 0.6105 
+
+Epoch 54/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6753 - loss: 0.3497 - precision: 0.7759 - recall: 0.6305 
+
+Epoch 55/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6776 - loss: 0.3474 - precision: 0.7766 - recall: 0.6356 
+
+Epoch 56/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6739 - loss: 0.3520 - precision: 0.7812 - recall: 0.6176 
+
+Epoch 57/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6957 - loss: 0.3286 - precision: 0.7910 - recall: 0.6460 
+Epoch 58/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6794 - loss: 0.3457 - precision: 0.7888 - recall: 0.6306 
+Epoch 59/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 69ms/step - dice_coef: 0.7038 - loss: 0.3196 - precision: 0.8019 - recall: 0.6537 
+
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6792 - loss: 0.3448 - precision: 0.7780 - recall: 0.6365 
+
+Epoch 61/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.6766 - loss: 0.3478 - precision: 0.7776 - recall: 0.6305 
+Epoch 62/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7009 - loss: 0.3231 - precision: 0.8020 - recall: 0.6550 
+
+Epoch 63/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 70ms/step - dice_coef: 0.6998 - loss: 0.3229 - precision: 0.8029 - recall: 0.6567 
+Epoch 64/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 70ms/step - dice_coef: 0.7092 - loss: 0.3130 - precision: 0.8077 - recall: 0.6712 
+Epoch 65/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7001 - loss: 0.3231 - precision: 0.7993 - recall: 0.6498 
+Epoch 66/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7165 - loss: 0.3056 - precision: 0.8107 - recall: 0.6699 
+Epoch 67/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7187 - loss: 0.3047 - precision: 0.8068 - recall: 0.6720 
+
+Epoch 68/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7326 - loss: 0.2890 - precision: 0.8252 - recall: 0.6864 
+Epoch 69/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 70ms/step - dice_coef: 0.7278 - loss: 0.2938 - precision: 0.8176 - recall: 0.6903 
+Epoch 70/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7286 - loss: 0.2927 - precision: 0.8208 - recall: 0.6858 
+Epoch 71/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7316 - loss: 0.2897 - precision: 0.8180 - recall: 0.6906 
+
+Epoch 72/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7444 - loss: 0.2766 - precision: 0.8352 - recall: 0.7039 
+
+Epoch 73/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7399 - loss: 0.2812 - precision: 0.8284 - recall: 0.6994 
+Epoch 74/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7490 - loss: 0.2713 - precision: 0.8379 - recall: 0.7071 
+
+Epoch 75/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7373 - loss: 0.2834 - precision: 0.8248 - recall: 0.6981 
+
+Epoch 76/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7470 - loss: 0.2737 - precision: 0.8397 - recall: 0.7017 
+Epoch 77/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 69ms/step - dice_coef: 0.7542 - loss: 0.2660 - precision: 0.8368 - recall: 0.7139 
+
+Epoch 78/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7581 - loss: 0.2616 - precision: 0.8473 - recall: 0.7222 
+Epoch 79/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7537 - loss: 0.2660 - precision: 0.8420 - recall: 0.7130 
+Epoch 80/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7597 - loss: 0.2601 - precision: 0.8477 - recall: 0.7150 
+Epoch 81/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 71ms/step - dice_coef: 0.7644 - loss: 0.2555 - precision: 0.8455 - recall: 0.7172 
+Epoch 82/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7702 - loss: 0.2486 - precision: 0.8517 - recall: 0.7325 
+Epoch 83/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 71ms/step - dice_coef: 0.7584 - loss: 0.2608 - precision: 0.8470 - recall: 0.7174 
+Epoch 84/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7828 - loss: 0.2356 - precision: 0.8514 - recall: 0.7489 
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7749 - loss: 0.2436 - precision: 0.8574 - recall: 0.7351 
+Epoch 86/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7799 - loss: 0.2387 - precision: 0.8599 - recall: 0.7407 
+
+Epoch 87/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7754 - loss: 0.2430 - precision: 0.8589 - recall: 0.7330
+
+Epoch 88/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7915 - loss: 0.2260 - precision: 0.8701 - recall: 0.7507 
+Epoch 89/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7782 - loss: 0.2398 - precision: 0.8547 - recall: 0.7432 
+Epoch 90/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7854 - loss: 0.2327 - precision: 0.8623 - recall: 0.7483 
+
+Epoch 91/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7869 - loss: 0.2307 - precision: 0.8615 - recall: 0.7528 
+
+Epoch 92/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7922 - loss: 0.2252 - precision: 0.8687 - recall: 0.7540 
+Epoch 93/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7924 - loss: 0.2253 - precision: 0.8727 - recall: 0.7545 
+Epoch 94/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.7968 - loss: 0.2205 - precision: 0.8688 - recall: 0.7591 
+
+Epoch 95/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.8027 - loss: 0.2141 - precision: 0.8782 - recall: 0.7710 
+
+Epoch 96/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 71ms/step - dice_coef: 0.8016 - loss: 0.2154 - precision: 0.8755 - recall: 0.7697 
+
+Epoch 97/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.8073 - loss: 0.2086 - precision: 0.8732 - recall: 0.7765 
+
+Epoch 98/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.8078 - loss: 0.2084 - precision: 0.8809 - recall: 0.7727 
+
+Epoch 99/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m19s[0m 70ms/step - dice_coef: 0.8043 - loss: 0.2119 - precision: 0.8753 - recall: 0.7712 
+
+Epoch 100/100
+[1m277/277[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m20s[0m 70ms/step - dice_coef: 0.8199 - loss: 0.1958 - precision: 0.8834 - recall: 0.7882 
