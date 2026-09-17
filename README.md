@@ -151,7 +151,6 @@ patch_dataset/
 
 where each mask shares the exact filename of its image.
 
-> _If you know the original public source of these radiographs, add the link and citation here._
 
 ---
 
