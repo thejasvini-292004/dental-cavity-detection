@@ -85,7 +85,8 @@ A full, plain-English walkthrough of the EDA and evaluation lives in [`docs/EDA_
 ```
 teeth/
 ├── app.py                     # Streamlit web app (upload → predict → visualise)
-├── unet_cavity_final.h5       # Trained U-Net weights (~23 MB)
+├── unet_cavity_final.onnx     # Serving model (ONNX) — used by the app, light & fast
+├── unet_cavity_final.h5       # Trained U-Net weights (Keras, for training/reference)
 ├── requirements.txt           # Python dependencies
 ├── packages.txt               # System deps for Streamlit Cloud
 ├── .streamlit/config.toml     # App theme / config
@@ -126,6 +127,7 @@ streamlit run app.py
 ### 3. Or run desktop inference
 
 ```bash
+pip install matplotlib          # only extra dep for the desktop script
 python src/predict_local.py     # opens a file dialog, shows a matplotlib figure
 ```
 
@@ -163,7 +165,9 @@ where each mask shares the exact filename of its image.
 
 ## Tech stack
 
-Python · TensorFlow / Keras · OpenCV · NumPy · Matplotlib · Streamlit
+Python · TensorFlow / Keras *(training)* · ONNX Runtime *(serving)* · OpenCV · NumPy · Streamlit
+
+> The model is trained in Keras and exported to **ONNX** for inference, so the hosted app runs without TensorFlow — it installs cleanly on any Python version and stays well within free-tier resource limits.
 
 ## License
 

@@ -1,10 +1,11 @@
 """
-Local desktop inference (no web UI).
-====================================
-Opens a file dialog, lets you pick a dental X-ray, runs the U-Net model and
-shows the original image, probability map, binary mask and a detection overlay
-in a matplotlib window.
+Local desktop inference (no web UI, no TensorFlow).
+===================================================
+Opens a file dialog, lets you pick a dental X-ray, runs the U-Net model with
+ONNX Runtime and shows the original image, probability map, binary mask and a
+detection overlay in a matplotlib window.
 
+Requires matplotlib in addition to requirements.txt:  pip install matplotlib
 Usage:  python src/predict_local.py
 """
 
@@ -13,21 +14,20 @@ from pathlib import Path
 
 import cv2
 import numpy as np
-import tensorflow as tf
+import onnxruntime as ort
 import matplotlib.pyplot as plt
 import tkinter as tk
 from tkinter import filedialog
 
-# Model lives at the repository root, next to this script's parent folder.
 ROOT = Path(__file__).resolve().parent.parent
-MODEL_PATH = ROOT / "unet_cavity_final.h5"
+MODEL_PATH = ROOT / "unet_cavity_final.onnx"
 IMG_SIZE = 128
 
 
 def main():
     print("Loading model…")
-    # compile=False -> inference only, no need for the training loss/metrics.
-    model = tf.keras.models.load_model(MODEL_PATH, compile=False)
+    sess = ort.InferenceSession(str(MODEL_PATH), providers=["CPUExecutionProvider"])
+    input_name = sess.get_inputs()[0].name
     print("Model loaded.")
 
     root = tk.Tk()
@@ -46,8 +46,8 @@ def main():
         return
 
     gray = cv2.cvtColor(orig, cv2.COLOR_BGR2GRAY)
-    small = cv2.resize(gray, (IMG_SIZE, IMG_SIZE)) / 255.0
-    prob = model.predict(small[np.newaxis, ..., np.newaxis])[0, ..., 0]
+    small = (cv2.resize(gray, (IMG_SIZE, IMG_SIZE)) / 255.0).astype(np.float32)
+    prob = sess.run(None, {input_name: small[np.newaxis, ..., np.newaxis]})[0][0, ..., 0]
 
     binary = (prob > 0.5).astype(np.uint8)
     binary_full = cv2.resize(binary, (orig.shape[1], orig.shape[0]),
